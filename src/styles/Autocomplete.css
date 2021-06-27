@@ -1,0 +1,33 @@
+.input-container {
+    -webkit-box-shadow: 0px 5px 10px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 10px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 10px -7px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #C0C0C0;
+}
+
+.input-container input {
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    outline: none;
+    border: none;
+
+}
+
+.suggestion-list {
+    border-top: none;
+}
+
+.suggestion {
+    padding: 10px;
+}
+
+.suggestion:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.selected {
+    background-color: rgb(230, 230, 230);
+}
